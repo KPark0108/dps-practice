@@ -158,7 +158,6 @@
     text-align: center;
 }
 
-
 .home__description,
 .home__title{
     color: var(--color-white);
@@ -269,11 +268,13 @@
     overflow: hidden;
     background-size: cover;
     background-image: url(DPS-Photos/photos/military-press.jpeg);
+    filter:opacity(0.7);
 }
 .flexibility{
     overflow: hidden;
     background-size: cover;
     background-image: url(DPS-Photos/photos/lunges.jpg);
+    filter:opacity(0.95);
 }
 
 .skills__div{
