@@ -159,16 +159,11 @@
     background: linear-gradient(rgba(0, 0, 0, 0.202),rgba(0, 0, 0, 0.214)),
                 url(DPS-Photos/photos/pexels-karl-solano-2729899.jpg) center/cover no-repeat;
     width: 100%;
-    height: calc(100vh - 80px);
-    margin-top: 80px;
+    padding: 40px;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* //padding: 40px; 
-    //padding-top: 350px;
-    //height: 50vh;
-    text-align: center; */
-
 }
 .small{
     font-size: var(--font-large);
@@ -199,9 +194,10 @@
 
 /* Section Common */
 .section{
+    padding: 50px 0;
     text-align: center;
     margin: auto;
-    padding-top: 50px;
+
 }
 
 .section__container{
@@ -213,6 +209,7 @@
 .about__description{
     padding-left: 150px;
     padding-right: 150px;
+    margin-top: 60px;
 }
 
 .about__margin{
@@ -291,12 +288,14 @@
     background-color: #1f1f1f;
 }
 .muscle{
+    object-fit: cover;
     overflow: hidden;
     background-size: cover;
     background-image: url(DPS-Photos/photos/military-press.jpeg);
     /* filter:opacity(0.7); */
 }
 .flexibility{
+    object-fit: cover;
     overflow: hidden;
     background-size: cover;
     background-image: url(DPS-Photos/photos/lunges.jpg);
@@ -305,10 +304,11 @@
 
 .skills__div{
     display: grid;
-    height: 80vh;
+    height: calc(100vh - 80px);
     grid-template-rows: 50% 50%;
     grid-template-columns: 50% 50%;
     grid-gap: 0px;
+    margin-top: 80px;
 }
 .box {
   width: 100%;
@@ -616,4 +616,12 @@
         right: 16px;
         bottom: 16px;
     }
+
+    .home__title{
+        font-size: var(--font-large);
+    }
+    .small{
+        font-size: var(--font-regular);
+    }
+
 }

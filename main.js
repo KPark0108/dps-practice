@@ -27,14 +27,14 @@ contactMe.addEventListener('click', () => {
 });
 
 // // Make home slowly fade to transparent as the window scrolls down
-// const home = document.querySelector(".home__container");
-// const homeHeight = home.getBoundingClientRect().height;
 // document.addEventListener('scroll', () =>{
 //     home.style.opacity = 1 - window.scrollY / homeHeight;
 // });
 
 
 // Show "arrow up" button when scroling down
+const home = document.querySelector(".section__home");
+const homeHeight = home.getBoundingClientRect().height;
 const arrowUp = document.querySelector('.arrowUp');
 document.addEventListener('scroll', ()=> {
     if (window.scrollY > homeHeight / 2) {
