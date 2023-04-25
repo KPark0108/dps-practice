@@ -151,11 +151,24 @@
 
 /* Home */
 #home{
-    background: url(DPS-Photos/photos/Homephoto2.jpg) center/cover no-repeat;
-    padding: 40px; 
-    padding-top: 350px;
-    height: 800px;
+    //background: url(DPS-Photos/photos/Homephoto2.jpg) center/cover no-repeat;
+    //padding: 40px; 
+    //padding-top: 350px;
+    //height: 50vh;
     text-align: center;
+}
+.home__container{
+    height: 50vh;
+}
+.home__container::before{
+    content: "";
+    background-image: url(DPS-Photos/photos/Homephoto2.jpg);
+    background-size: cover;
+    top: 0; left: 0;
+    height: 50vh; width: 100%;
+    position: absolute;
+    z-index: -1;
+    filter: opacity(0.5);
 }
 
 .home__description,
