@@ -260,17 +260,25 @@
 #skills{
     background-color: black;
     color: white;
+    max-width: 1280px;
 }
 .text-column{
     background-color: #1f1f1f;
 }
-.column img {
-    max-width: 100%;
-    max-height: 100%;
-    color: white;
+.muscle{
+    overflow: hidden;
+    background-size: cover;
+    background-image: url(DPS-Photos/photos/military-press.jpeg);
 }
+.flexibility{
+    overflow: hidden;
+    background-size: cover;
+    background-image: url(DPS-Photos/photos/lunges.jpg);
+}
+
 .skills__div{
     display: grid;
+    height: 80vh;
     grid-template-rows: 50% 50%;
     grid-template-columns: 50% 50%;
     grid-gap: 0px;
