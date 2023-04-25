@@ -103,17 +103,13 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: transparent;
+    background-color: var(--color-black);
     align-items: center;
     color: var(--color-white);
     padding: 10px;
     transition: all var(--animation-duration) ease-in-out;
 }
 
-#navbar.navbar--dark{
-    background-color: black;
-    padding: 8px;
-}
 
 .navbar__menu{
     display: flex;
@@ -154,7 +150,7 @@
 
 /* Home */
 #home{
- background: url(imgs/Background-Black.jpg) center/cover no-repeat;
+ background: url(/DPS-Photos/photos/Homephoto2.jpg) center/cover no-repeat;
  padding: 40px; 
  padding-top: 120px;
  text-align: center;
