@@ -532,6 +532,14 @@
     a {
         font-size: var(--font-small);
     }
+
+    h2 {
+        font-size: 35px;
+        font-weight: var(--weight-semi-bold);
+        color: var(--color-white);
+        margin: 8px 0;
+      }
+
     .navbar__toggle-btn{
         display: block;
         right: 16px;
@@ -622,7 +630,7 @@
 
     .arrowUp{
         width: 30px;
-        height: 30px;
+        height: 50px;
         font-size: 30px;
         right: 16px;
         bottom: 16px;
