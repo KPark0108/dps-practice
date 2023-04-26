@@ -633,6 +633,11 @@
         pointer-events: auto;
     }
 
+    .fa-arrow-up{
+        position: relative;
+        right: 2px;
+    }
+
     .home__title{
         font-size: var(--font-large);
     }
