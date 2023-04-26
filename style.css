@@ -14,7 +14,7 @@
     --color-black: #000000;
   
     /* Font size */
-    --font-xlarge: 80px;
+    --font-xlarge: 90px;
     --font-large: 48px;
     --font-medium: 28px;
     --font-regular: 18px;
@@ -42,7 +42,8 @@
   body{
     margin: 0;
     cursor: default;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-stretch: 100%;
     background-color: black;
   }
 
@@ -70,7 +71,7 @@
   
   h1 {
     font-size: var(--font-xlarge);
-    font-weight: var(--weight-bold);
+    font-weight: var(--weight-regular);
     color: var(--color-white);
     margin: 16px 0px;
   }
