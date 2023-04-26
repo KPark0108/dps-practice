@@ -621,8 +621,9 @@
         height: 50px;
         font-size: 30px;
         line-height: 40px;
-        right: 20px;
-        bottom: 20px;
+        right: 16px;
+        bottom: 16px;
+        border-radius: 50%;
     }
 
     .home__title{
