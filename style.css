@@ -42,7 +42,7 @@
   body{
     margin: 0;
     cursor: default;
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", sans-serif;
     font-stretch: 100%;
     background-color: black;
   }
@@ -118,7 +118,7 @@
 
 .navbar__menu{
     display: flex;
-    font-size: var(--font-micro);
+    font-size: var(--font-small);
 }
 
 .navbar__logo{
