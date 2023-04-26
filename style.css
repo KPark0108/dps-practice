@@ -203,7 +203,7 @@
 }
 
 .section__container{
-    max-width: 1200px;
+    max-width: 800px;
     margin: auto;
 }
 
@@ -528,6 +528,10 @@
 
 /* For below 768px screen width */
 @media screen and (max-width: 768px){
+
+    a {
+        font-size: var(--font-small);
+    }
     .navbar__toggle-btn{
         display: block;
         right: 16px;
@@ -538,7 +542,7 @@
         align-items: flex-start;
         justify-content: center;
         background-color: var(--color-black);
-        padding-left: 30px;
+        padding-left: 10px;
     }
 
     .navbar__logo{
