@@ -209,14 +209,12 @@
 
 /* About */
 .about__description{
-    padding-left: 150px;
-    padding-right: 150px;
+    /* padding-left: 150px;
+    padding-right: 150px; */
     margin-top: 60px;
+    max-width: 1200px;
 }
 
-.about__margin{
-    margin-top: 40px;
-}
 .about__major{
     display: flex;
     justify-content: space-between;
@@ -567,9 +565,11 @@
         flex-direction: column;
     }
 
-    .about__margin{
-        margin-top: 40px;
-        word-wrap: break-word;
+    .about__description{
+        /* padding-left: 150px;
+        padding-right: 150px; */
+        margin-top: 60px;
+        max-width: 768px;
     }
 
     .section{
