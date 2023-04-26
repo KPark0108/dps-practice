@@ -321,7 +321,7 @@
   width: 80%;
   height: auto;
   text-align: left;
-  word-wrap: break-word;
+  margin-left: 15px;
 }
 
 
@@ -575,6 +575,10 @@
         padding-top: 50px;
     }
 
+    .box{
+        display: block;
+        overflow: auto;
+    }
     .major{
         margin-bottom: 38px;
     }
