@@ -542,7 +542,7 @@
 
     .navbar__toggle-btn{
         display: block;
-        right: 16px;
+        right: 5px;
         font-size: var(--font-medium);
     }
     #navbar{
@@ -551,7 +551,7 @@
         justify-content: center;
         background-color: var(--color-black);
         padding-left: 10px;
-        padding-right: 20px;
+
     }
 
     .navbar__logo{
