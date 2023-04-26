@@ -566,10 +566,8 @@
     }
 
     .about__description{
-        /* padding-left: 150px;
-        padding-right: 150px; */
-        margin-top: 60px;
-        max-width: 768px;
+        flex-direction: column;
+        align-items: center;
     }
 
     .section{
