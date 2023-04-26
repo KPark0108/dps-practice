@@ -124,6 +124,7 @@
 .navbar__logo{
     font-size: var(--font-medium);
     font-weight: var(--weight-semi-bold);
+    padding-bottom: 10px;
 }
 
 .navbar__menu__item{
@@ -537,7 +538,13 @@
     #navbar{
         flex-direction: column;
         align-items: flex-start;
+        justify-content: center;
         background-color: var(--color-black);
+        padding-left: 30px;
+    }
+
+    .navbar__logo{
+        padding-bottom: 10px;
     }
 
     #navbar.navbar--dark {
