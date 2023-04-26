@@ -323,6 +323,7 @@
   width: 80%;
   height: auto;
   text-align: left;
+  word-wrap: break-word;
 }
 
 
@@ -564,6 +565,11 @@
 
     .about__major{
         flex-direction: column;
+    }
+
+    .about__margin{
+        margin-top: 40px;
+        word-wrap: break-word;
     }
 
     .section{
