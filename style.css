@@ -543,7 +543,7 @@
 
     .navbar__toggle-btn{
         display: block;
-        right: 5px;
+        right: 0;
         font-size: var(--font-medium);
     }
     #navbar{
