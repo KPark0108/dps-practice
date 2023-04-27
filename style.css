@@ -95,6 +95,7 @@
     font-weight: var(--weight-regular);
     color: white;
     margin: 4px 0;
+    letter-spacing: 1px;
   }
 
 
