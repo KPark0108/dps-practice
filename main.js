@@ -141,3 +141,5 @@ window.addEventListener('wheel', () => {
     }
     selectNavItem(navItems[selectedNavIndex]);
 });
+
+
