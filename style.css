@@ -551,4 +551,12 @@ h2, p, .section__about{
         font-size: var(--font-regular);
     }
 
+    .map{
+        width: auto;
+    }
+
+    .contact__links{
+        width: auto;
+        padding-left: 20px;
+    }
 }
