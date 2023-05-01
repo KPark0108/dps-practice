@@ -588,6 +588,26 @@ width: 200px;
         flex-direction: column;
     }
 
+    .before-after-result{
+        width: 50%;
+    }
+    .before-after-logo{
+        width: 200px;
+    }
+    .before-after-img:nth-child(2){
+        background-image: url(/DPS-Photos/photos/278989323_403410187948137_8741743167021530235_n.jpeg);
+        display: none;
+    }
+    
+    .before-after-img:nth-child(3){
+        background-image: url(/DPS-Photos/photos/279012353_409660593875728_4497343866226544831_n.jpeg);
+        display: none;
+    }
+    
+    .before-after-img:nth-child(4){
+        display: none;
+        background-image: url(/DPS-Photos/photos/278989323_403410187948137_8741743167021530235_n.jpeg);
+    }
     .section{
         padding: 16px;
         padding-top: 50px;
